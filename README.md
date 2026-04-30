@@ -48,26 +48,6 @@ http://127.0.0.1:5000
 pytest -q
 ```
 
-## Как запушить на GitHub
-
-Создайте пустой репозиторий на GitHub, затем в папке проекта выполните:
-
-```bash
-git init
-git add .
-git commit -m "Initial Flask animation demo"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-git push -u origin main
-```
-
-После пуша GitHub Actions автоматически запустит workflow из файла:
-
-```text
-.github/workflows/python-ci.yml
-```
-
-Посмотреть результат можно во вкладке **Actions** вашего репозитория.
 
 ## Как работает синхронизация
 
